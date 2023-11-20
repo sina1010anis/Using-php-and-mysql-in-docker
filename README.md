@@ -23,6 +23,7 @@ docker inspect <mycontainer:mysql>
 docker run -d -p 8001:80 -e PMA_HOST=<IPAddress Mysql> -e PMA_PORT=3306 phpmyadmin/phpmyadmin
 ```
 
+# Docker Compose:
 ```bash 
 # Docker Compose
 version: '3.7'
