@@ -1,4 +1,0 @@
-docker run -d -p 3306:3306 -e MYSQL_PASSWORD=password -e MYSQL_DATABASE=php_docker -e MYSQL_ALLOW_EMPTY_PASSEORD=1 -e MYSQL_ROOT_PASSWORD=password mysql:latest
-
-docker run -d -p 8001:80 -e PMA_HOST=<IPAddress Mysql> -e PMA_PORT=3306 phpmyadmin/phpmyadmin
-
